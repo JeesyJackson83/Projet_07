@@ -4,14 +4,15 @@ import urllib.request
 
 from gpapp.map import GoogleMap
 
+
 # no entry
 def test_no_entry(monkeypatch):
     result = "1"
-    Gmap = GoogleMap("")
+    gmap = GoogleMap("")
 
     monkeypatch.setattr(urllib.request, 'urlopen', result)
 
-    assert Gmap.get_gps_coord() == result
+    assert gmap.get_gps_coord() == result
 
 
 # Stade de France
@@ -22,6 +23,7 @@ def test_get_coord(monkeypatch):
     monkeypatch.setattr(urllib.request, 'urlopen', result)
 
     assert gmap.get_gps_coord() == result
+
 
 # address eiffel tower
 def test_get_address(monkeypatch):

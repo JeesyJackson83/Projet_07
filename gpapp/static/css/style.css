@@ -2,7 +2,7 @@
 header {
     border: solid;
     padding: 10px 0 10px 0;
-    background-color: #2b3c53;
+    background-color: Grey;
     font-color: white;
 }
 
@@ -18,7 +18,7 @@ header h1, header h3{
 }
 
 
-.container-fluid {
+.container {
 
     padding-right: 0px;
     padding-left: 0px;
@@ -59,7 +59,7 @@ footer {
     margin-top: 20px;
     border: solid;
     font-size: 0.8em;
-    background-color: #2b3c53;
+    background-color: Grey;
 }
 
 footer p {

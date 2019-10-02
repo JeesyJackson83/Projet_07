@@ -8,7 +8,7 @@ class GoogleMap:
 
     def __init__(self, question):
         self.url = "https://maps.googleapis.com/maps/api/geocode/json?address="
-        self.key = "YourAPIKEY"
+        self.key = "AIzaSyDMgIhs_f-La3QBapEwe-dy80PHDxU9alk"
         self.question = '+'.join(question.split())
 
     # return the lat and the lng of the attribute question

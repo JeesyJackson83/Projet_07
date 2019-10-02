@@ -5,7 +5,7 @@ $(function() {
 	{
     	var usr_query = document.getElementById('usr_question').value;
     	if (usr_query !== "") {
-    	    console.log("Vous avez saisi :" + usr_query);
+    	    console.log("Message saisi :" + usr_query);
     	    display_message(usr_query);
     	    loading();
     	    ajaxPost(usr_query, data_treat);
@@ -18,7 +18,7 @@ $(function() {
         {
             var usr_query = document.getElementById('usr_question').value;
             if (usr_query !== "") {
-                console.log("Vous avez saisi :" + usr_query);
+                console.log("Message saisi :" + usr_query);
                 display_message(usr_query);
                 loading();
                 ajaxPost(usr_query, data_treat);
